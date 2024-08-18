@@ -1,0 +1,114 @@
+*{
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;  
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-oscuro{
+    background-color: #373A3C;
+}
+
+.ricomida-logo{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+}
+
+.wrapper .desc-recipe {
+    width: 50%;
+    text-align: left;
+}
+
+#titulo-pizza{
+    width: 50%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+    .wrapper .desc-recipe, #titulo-pizza{
+        text-align: center;
+        width: 100%;
+    }        
+    
+}
+
+.desc-recipe h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.divider{
+    opacity: 100%;
+}
+
+.wrapper div, .desc-recipe {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.columnas-carousel{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+#boton-indicador1, #boton-indicador2{
+    height: 14px;
+    width: 14px;   
+    border-radius: 50%;
+}
+
+p{
+    font-size: 20px;
+}
+
+.related-recipes h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.rel-card{
+    margin: 10px;
+}
+
+.card-body h5{
+    font-weight: 700;
+    font-size: 23px;
+} 
+
+.newsletter{
+    background-color: #DC3545;
+}
+
+.newsletter h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.newsletter h5{
+    font-weight: 400;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.ricomida-news{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.newsletter button{
+    margin: 50px;
+}
+
+.text-white{
+    color: white;
+}
